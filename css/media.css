@@ -1,0 +1,125 @@
+@media screen and (max-width:1200px) {
+    .banner__wrap {
+        gap: 28px;
+    }
+
+    .iphone__wrap {
+        flex-wrap: wrap;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .iphone-card {
+        padding: 30px 80px;
+
+    }
+}
+
+@media screen and (max-width:980px) {
+    .banner {
+        height: 80vh;
+    }
+
+    .banner__wrap-h {
+        font-size: 70px;
+        line-height: 60px;
+    }
+
+    .banner__wrap-btn {
+        padding: 10px 12px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .catalog__wrap>.catalog__showing,
+    .catalog__earpiece {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .catalog__aipot-p {
+        font-size: 16px;
+        line-height: 18px;
+        max-width: 230px;
+    }
+
+    .catalog__showing-p,
+    .catalog__earpiece-p {
+        font-size: 18px;
+        line-height: 22px;
+        max-width: 440px;
+    }
+}
+
+@media screen and (max-width:870px) {
+    .catalog__aipot-line {
+        display: none;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .banner {
+        height: 60vh;
+    }
+
+    .banner__wrap-h {
+        font-size: 60px;
+        line-height: 50px;
+    }
+
+    .banner__wrap-btn img {
+        width: 14px;
+        height: 14px;
+    }
+
+    .catalog__aipot {
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+    }
+    .footer__wrap{
+        padding: 60px 0;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .header__wrap {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .header__nav-menu {
+        gap: 20px;
+    }
+
+    .header__nav {
+        flex-direction: column;
+    }
+
+    .banner {
+        height: 50vh;
+    }
+
+    .banner__wrap-h {
+        font-size: 45px;
+        line-height: 35px;
+    }
+
+    .banner__wrap-btn {
+        font-size: 10px;
+        line-height: 14px;
+        padding: 6px 8px;
+    }
+
+    .banner__wrap-btn img {
+        width: 10px;
+        height: 10px;
+    }
+
+}

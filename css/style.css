@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Montserrat', 'ProstoOne-Regular', sans-serif;
+    background: #151515;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    background: #282828;
+    padding: 10px 0;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.header__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__nav-menu-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.banner {
+    background: url(../image/bg.png) no-repeat center/cover;
+    height: 100vh;
+}
+
+.banner__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+}
+
+.banner__wrap-h {
+    font-family: 'Prosto One', sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+
+.banner__wrap-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #171718;
+    padding: 14px 13px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+}
+
+.catalog {
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.catalog__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.catalog__showing {
+    display: flex;
+    gap: 30px;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.catalog__earpiece {
+    display: flex;
+    gap: 87px;
+    align-items: center;
+}
+
+.catalog__aipot {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.catalog__showing-img img,
+.catalog__earpiece-img img,
+.catalog__aipot-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.catalog__showing-p,
+.catalog__earpiece-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #FFFFFF;
+    max-width: 540px;
+}
+
+.catalog__aipot-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+    max-width: 333px;
+}
+
+.catalog__aipot-img {}
+
+.catalog__aipot-line {
+    width: 61px;
+    height: 1px;
+    background: #C4C4C4;
+}
+
+.catalog__aipot-p:first-child {
+    text-align: end;
+}
+
+.iphone {
+    margin-bottom: 55px;
+}
+
+.iphone__wrap {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.iphone-card {
+    padding: 15px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.iphone-card-h {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000000;
+}
+
+.iphone-card-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #000000;
+}
+
+.iphone-card-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 7px 57px;
+    background: #151515;
+}
+
+.footer {
+    background: #282828;
+    padding: 0 15px;
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.footer__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+.footer__wrap-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer__wrap-menu-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.footer__wrap-cards {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.footer__wrap-cards img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
